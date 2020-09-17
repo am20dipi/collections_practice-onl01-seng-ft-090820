@@ -8,8 +8,6 @@ end
 
 def sort_array_char_count(array)
   return array.sort_by{|word| -word.split.count}
-  
-  
 end
 
 def swap_elements(array)
