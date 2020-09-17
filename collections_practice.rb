@@ -12,9 +12,8 @@ def sort_array_char_count(array)
 end
 
 def swap_elements(array)
-  array[1] = "scott"
-  array[2] = "ashley"
-  
+  array[1], array[2] = array[2], array[1]
+  array
 end
 
 def reverse_array(array)
@@ -25,4 +24,7 @@ def find_a(array)
   array.select do |word|
     word.chr == "a"
   end
+end
+
+def kesha_maker(array)
 end
