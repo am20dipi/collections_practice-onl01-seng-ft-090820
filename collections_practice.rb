@@ -7,7 +7,7 @@ def sort_array_desc(array)
 end
 
 def sort_array_char_count(array)
-  array.sort_by{|word| word.split.count(-1)}
+  array.sort_by{|word| word.split.count.reverse}
 end
 
 def swap_elements(array)
